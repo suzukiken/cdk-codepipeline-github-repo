@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - touch index.html
+      - echo "<html><body>おはよう</body></html>" > index.html
+artifacts:
+  files:
+    - '**/*'
